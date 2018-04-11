@@ -1,0 +1,73 @@
+/* Exhibit CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display:flex;
+	flex-direction: row;
+	background-color: #E8AB9E;
+	
+	font-family: 'Montserrat', 'Open Sans', 'Roboto', 'Lato';
+	font-size: large;
+	color: white;
+	text-align: left;	
+	flex-wrap: nowrap;	
+}
+
+header { 
+	font-family: 'Montserrat', 'Open Sans', 'Roboto', 'Lato';
+}
+
+h1{
+	font-weight: boldest; 
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-weight: light; 
+	font-size: 20px;
+	margin: 0;
+	padding: 0;	
+}
+
+div.header {
+	padding: 25px;
+	padding-left: 40px;
+}
+
+nav {
+	display: flex; 
+	flex-direction: row;
+	padding-top: 0px;
+	padding-left: 200px;
+	padding-right: 0px;
+	
+
+	text-align: right;
+	font-size: small;
+	justify-content: space-between;
+}
+
+ul { 
+	display: flex;
+	padding-top: 0px;
+	list-style-type: none;
+}
+
+li{
+	margin: 15px;
+}
+
+li.home{
+	font-weight: 800px;
+}
+
+
+
+
+
+
