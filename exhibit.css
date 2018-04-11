@@ -1,10 +1,101 @@
 * {
-	font-family: 'Monsterrat', sans-serif;
+	font-family: 'Montserrat';
 }
 
-body {
+html, body {
+	height: 100%;
 	margin: 0; 
    	padding: 0; 
+}
+
+
+header {
+	display:flex;
+	flex-direction: row;
+	background-color: #E8AB9E;
+	
+	font-family: 'Montserrat', 'Open Sans', 'Roboto', 'Lato';
+	font-size: large;
+	color: white;
+	text-align: left;	
+	flex-wrap: nowrap;	
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+
+}
+
+h1{
+	font-weight: boldest; 
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-weight: light; 
+	font-size: 20px;
+	margin: 0;
+	padding: 0;	
+}
+
+div.header {
+	padding: 25px;
+	padding-left: 40px;
+}
+
+nav {
+	display: flex; 
+	flex-direction: row;
+	padding-top: 0px;
+	padding-left: 200px;
+	padding-right: 0px;
+	text-align: right;
+	font-size: small;
+	justify-content: space-between;
+	position: absolute; 
+    right: 20px;
+}
+
+ul { 
+	display: flex;
+	padding-top: 0px;
+	list-style-type: none;
+}
+
+li{
+	margin: 15px;
+}
+
+li.home{
+	font-weight: 800px; 
+}
+
+.middle_part {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #6C2E2F;
+	height: 100%;
+	margin-top:20px;
+	padding-top:20px;
+}
+
+.description_column {
+	margin: 20px;
+	margin-top: -20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 70%;
+	height: auto;
+}
+
+.description_title {
+	font-size: 20px;
+}
+
+img {
+	max-width:300px;
+	height: auto;
+
 }
 
 footer p {
@@ -15,16 +106,16 @@ footer p {
 
 .footer_title {
 	font-weight: 700;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 .hours {
 	font-weight: 700;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 .address {
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 
 
