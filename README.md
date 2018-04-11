@@ -1,3 +1,6 @@
 ## To Do items
 
-* font is not showing Monsterrat
+* make footer sticky
+* bold necessary Mosterrat text
+* check to see if images have to scale
+* 
