@@ -1,0 +1,40 @@
+* {
+	font-family: 'Monsterrat', sans-serif;
+}
+
+body {
+	margin: 0; 
+   	padding: 0; 
+}
+
+footer p {
+	margin: 20px;
+	padding-right: 100px;
+	padding-left: 20px;
+}
+
+.footer_title {
+	font-weight: 700;
+	padding-top: 25px;
+}
+
+.hours {
+	font-weight: 700;
+	padding-top: 25px;
+}
+
+.address {
+	padding-bottom: 25px;
+}
+
+
+footer {
+	display: flex;
+	flex-direction: row;
+	color: #FFFFFF;
+	background-color: #E8AB9E;
+	position:absolute;
+   	bottom:0;
+   	width:100%;
+   	height:auto;
+}
