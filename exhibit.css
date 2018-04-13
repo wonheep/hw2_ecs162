@@ -13,7 +13,6 @@ header {
 	display:flex;
 	flex-direction: row;
 	background-color: #E8AB9E;
-	font-size: large;
 	color: white;
 	text-align: left;	
 	flex-wrap: nowrap;	
@@ -23,14 +22,14 @@ header {
 }
 
 h1{
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 45px; 
 	margin: 0;
 	padding: 0;
 }
 
 h2{
-	font-weight: light; 
+	font-weight: 400; 
 	font-size: 20px;
 	margin: 0;
 	padding: 0;	
@@ -68,7 +67,7 @@ div.header {
 }
 
 li.home{
-	font-weight: 800px; 
+	font-weight: 400; 
 }
 
 .middle_part {
@@ -121,8 +120,7 @@ img {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 5px;
-	margin-bottom: -15px;
-	padding-bottom: -15px;
+	margin-bottom: -10px;
 }
 
 .windtoys_subtitle {
@@ -134,8 +132,7 @@ img {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 5px;
-	margin-bottom: -15px;
-	padding-bottom: -15px;
+	margin-bottom: -10px;
 }
 
 .aroundthecake_subtitle {
@@ -147,8 +144,7 @@ img {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 5px;
-	margin-bottom: -15px;
-	padding-bottom: -15px;
+	margin-bottom: -10px;
 }
 
 .bostoncremes_subtitle {
@@ -160,8 +156,7 @@ img {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 5px;
-	margin-bottom: -15px;
-	padding-bottom: -15px;
+	margin-bottom: -10px;
 }
 
 .pancake_subtitle {
@@ -173,8 +168,7 @@ img {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 5px;
-	margin-bottom: -15px;
-	padding-bottom: -15px;
+	margin-bottom: -10px;
 }
 
 .threemachines_subtitle {
@@ -186,8 +180,7 @@ img {
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 5px;
-	margin-bottom: -15px;
-	padding-bottom: -15px;
+	margin-bottom: -10px;
 }
 
 .bananas_subtitle {
@@ -255,7 +248,6 @@ footer {
 	.mobile_nav p{
 		text-align: center;
 		margin-bottom: -100px;
-		padding-bottom: -100px;
 	}
 
 	.middle_part {
@@ -288,7 +280,6 @@ footer {
 		font-weight: 700;
 		text-align: center;
 		margin-bottom: -5px;
-		padding-bottom: -5px;
 	}
 
 	.description_text2 {
@@ -340,7 +331,6 @@ footer {
 
 	.hours {
 		margin-top: -10px;
-		padding-top: -10px;
 	}
 }
 
@@ -353,3 +343,4 @@ footer {
 	.mobile_nav {
 		display:none;
 	}
+}
