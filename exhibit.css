@@ -13,9 +13,6 @@ header {
 	display:flex;
 	flex-direction: row;
 	background-color: #E8AB9E;
-	
-	font-family: 'Montserrat', 'Open Sans', 'Roboto', 'Lato';
-	font-size: large;
 	color: white;
 	text-align: left;	
 	flex-wrap: nowrap;	
@@ -25,13 +22,14 @@ header {
 }
 
 h1{
-	font-weight: boldest; 
+	font-weight: 700;
+	font-size: 45px; 
 	margin: 0;
 	padding: 0;
 }
 
 h2{
-	font-weight: light; 
+	font-weight: 400; 
 	font-size: 20px;
 	margin: 0;
 	padding: 0;	
@@ -42,7 +40,7 @@ div.header {
 	padding-left: 40px;
 }
 
-nav {
+.original_nav {
 	display: flex; 
 	flex-direction: row;
 	padding-top: 0px;
@@ -57,18 +55,19 @@ nav {
     padding-right: 20px;
 }
 
-ul { 
+.original_nav ul { 
 	display: flex;
 	padding-top: 0px;
 	list-style-type: none;
 }
 
-li{
-	margin: 20px;
+.original_nav li{
+	margin: 15px;
+	padding: 15px;
 }
 
 li.home{
-	font-weight: 800px; 
+	font-weight: 400; 
 }
 
 .middle_part {
@@ -109,7 +108,7 @@ li.home{
 	height:auto;
 	margin-right: 20px;
 	padding-right:20px;
-	padding-bottom: 200px;
+	padding-bottom: 180px;
 }
 
 img {
@@ -120,43 +119,73 @@ img {
 .windtoys_title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 5px;
 	margin-bottom: -10px;
-	padding-bottom: -10px;
+}
+
+.windtoys_subtitle {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .aroundthecake_title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 5px;
 	margin-bottom: -10px;
-	padding-bottom: -10px;
+}
+
+.aroundthecake_subtitle {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .bostoncremes_title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 5px;
 	margin-bottom: -10px;
-	padding-bottom: -10px;
+}
+
+.bostoncremes_subtitle {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .pancake_title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 5px;
 	margin-bottom: -10px;
-	padding-bottom: -10px;
+}
+
+.pancake_subtitle {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .threemachines_title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 5px;
 	margin-bottom: -10px;
-	padding-bottom: -10px;
+}
+
+.threemachines_subtitle {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .bananas_title {
 	font-size: 20px;
 	font-weight: bold;
+	margin-top: 5px;
 	margin-bottom: -10px;
-	padding-bottom: -10px;
+}
+
+.bananas_subtitle {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 footer p {
@@ -166,8 +195,8 @@ footer p {
 }
 
 .footer_title {
-	font-weight: bold;
 	padding-top: 20px;
+	font-weight: 700;
 }
 
 .hours {
@@ -189,4 +218,128 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+@media screen and (max-width:480px) {
+
+	header {
+		display:flex;
+		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 40px;
+		margin-top: 20px;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	h2 {
+		margin-top: 5px;
+		padding-top: 5px;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.original_nav {
+		display: none;
+	}
+
+	.mobile_nav p{
+		text-align: center;
+		margin-bottom: -100px;
+	}
+
+	.middle_part {
+		display: none;
+	}
+
+	.mobile_version {
+		display: flex;
+		flex-direction: column;
+		color: #6C2E2F;
+		height: auto;
+		margin-top:0px;
+		padding-top:0px;
+		margin-left:20px;
+		padding-left: 20px;
+		margin-bottom: 160px;
+		padding-bottom: 160px;
+		float: left;
+		width: 83%;
+		height: auto;
+	}
+
+	.mobile_version img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.description_title2 {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: -5px;
+	}
+
+	.description_text2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+
+	.windtoys_title2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	.aroundthecake_title2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	.bostoncremes_title2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	.pancake_title2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	.threemachines_title2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	.bananas_title2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hours {
+		margin-top: -10px;
+	}
+}
+
+@media screen and (min-width:481px) {
+
+	.mobile_version {
+		display:none;
+	}
+
+	.mobile_nav {
+		display:none;
+	}
 }
